@@ -12,6 +12,10 @@ projects:
 - name: instructlab-knowledge
   cloneUrl: https://github.com/jpapejr/instructlab_knowledge.git
 components:
-- container:
-    name: ilab
+- name: ilab
+  container:
     image: quay.io/jtpape_nfr/instructlab
+    memoryLimit: 4Gi
+    memoryRequest: 2Gi
+    cpuLimit: 4000m
+    cpuRequest: 1000m
