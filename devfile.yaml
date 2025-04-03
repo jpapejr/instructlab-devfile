@@ -1,0 +1,17 @@
+schemaVersion: 2.2.2
+metadata:
+  name: InstructLab
+  displayName: InstructLab
+  description: "Provides InstructLab technology stack for LLM knowledge and skill contribution"
+  tags:
+    - llm
+    - redhat
+    - generative-ai
+  version: 1.0.0
+projects:
+- name: instructlab-knowledge
+  cloneUrl: https://github.com/jpapejr/instructlab_knowledge.git
+components:
+- container:
+    name: ilab
+    image: quay.io/jtpape_nfr/instructlab
