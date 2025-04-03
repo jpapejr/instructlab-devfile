@@ -8,10 +8,13 @@ metadata:
     - redhat
     - generative-ai
   version: 1.0.0
-projects:
-- name: instructlab-knowledge
-  git:
-    remotes: https://github.com/jpapejr/instructlab_knowledge.git
+starterProjects:
+  - name: instructlab-knowledge
+    git:
+      checkoutFrom:
+        revision: main
+      remotes:
+        origin: 'https://github.com/jpapejr/instructlab_knowledge.git'
 components:
 - name: ilab
   container:
