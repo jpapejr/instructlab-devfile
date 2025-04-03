@@ -10,7 +10,8 @@ metadata:
   version: 1.0.0
 projects:
 - name: instructlab-knowledge
-  cloneUrl: https://github.com/jpapejr/instructlab_knowledge.git
+  git:
+    remotes: https://github.com/jpapejr/instructlab_knowledge.git
 components:
 - name: ilab
   container:
