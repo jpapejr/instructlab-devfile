@@ -19,6 +19,7 @@ components:
 - name: ilab
   container:
     image: quay.io/jtpape_nfr/instructlab
+    command: ["sleep", "infinity"]
     memoryLimit: 4Gi
     memoryRequest: 2Gi
     cpuLimit: 4000m
